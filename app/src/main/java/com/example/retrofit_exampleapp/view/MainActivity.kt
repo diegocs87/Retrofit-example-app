@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
                     content.plus("name:" + comments.getname())
                     content.plus("email:" + comments.getemail())
                     content.plus("Body:" + comments.getbody())
+                    System.out.println("test")
 
                 }
             }
